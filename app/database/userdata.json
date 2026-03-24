@@ -1,0 +1,22 @@
+[
+    {
+        "date": "21/03/26",
+        "id": "094753",
+        "name": "Sunaina Kuamri",
+        "address": "Pipra Khas",
+        "email": "sunaiana1234@gmail.com",
+        "password": "sunaian@2007",
+        "mobile": "0987654321",
+        "role": "Admin"
+    },
+    {
+        "date": "24/03/26",
+        "id": "320218",
+        "name": "Kriti Kumari",
+        "address": "Mirganj",
+        "email": "kriti123@gmail.com",
+        "password": "kriti@123",
+        "mobile": "0987654321",
+        "role": "Staff"
+    }
+]
