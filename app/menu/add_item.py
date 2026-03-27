@@ -76,4 +76,3 @@ class Manage:
                     print("Invalid choice!")
 
 
-
