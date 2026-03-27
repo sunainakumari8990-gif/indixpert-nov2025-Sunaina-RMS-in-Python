@@ -1,0 +1,197 @@
+from add_item import AddItem
+import json
+import os
+path = os.path.join("app", "database", "item_data.json")
+
+class Update:
+
+    def item_update(self):
+        try:
+            if os.path.exists(path):
+                with open(path, "r") as file:
+                    try:
+                        data = json.load(file)
+
+                    except:
+                        data = {
+                            "morning": [],
+                            "noon": [],
+                            "evening": [],
+                            "night": []
+                        }
+            else:
+                data = {
+                    "morning": [],
+                    "noon": [],
+                    "evening": [],
+                    "night": []
+                }
+
+            category1 = "morning"
+            category2 = "noon"
+            category3 = "evening"
+            category4 = "night"
+
+            while True:
+                print(f"\n|{'-'*10}UPDATE MENU{'-'*10}|")
+                print(f"| 1. morning item               |")
+                print(f"| 2. noon item                  |")
+                print(f"| 3. evening item               |")
+                print(f"| 4. night item                 |")
+                print(f"| 5. Back                       |")
+                print(f"|{'-'*31}|\n")
+
+                choice = input("please select your choice->> ")
+
+                if choice.isdigit():
+                    choice = int(choice)
+                    if choice == 1:
+                        print(f"\n  -------- {category1.upper()} ITEMS --------")
+                        print(f"|{'-'*31}|")
+                        for item in data[category1]:
+                            print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
+                        print(f"|{'-'*31}|\n")
+
+                        search_id = (input("please enter item id who you want to update: "))
+                        
+                        found = False
+                        for item in data[category1]:
+                            if item["id"] == search_id:
+
+                                found = True
+                                break
+                        if found:
+                            new_name = input("Enter new item name: ")
+                            new_price1 = int(input("enter new item full price: "))
+                            new_price2 = int(input("enter new item half price: "))
+                            chenge_veg = input("veg (True\False): ")
+                                
+                            item["name"] = new_name
+                            item["price1"] = new_price1
+                            item["price2"] = new_price2
+                            item["vagetarian"] = chenge_veg
+
+                            with open(path, "w") as file:
+                                json.dump(data, file, indent=4)
+                            print("Item update successfully!")
+                            continue
+
+                        if not found:
+                            print("invalid item name!!")
+                            continue
+                        
+
+                    elif choice == 2:
+
+                        print(f"\n  -------- {category2.upper()} ITEMS --------")
+                        print(f"|{'-'*31}|")
+                        for item in data[category2]:
+                            print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
+                        print(f"|{'-'*31}|\n")
+
+                        search_item = (input("please enter item name who you want to update: "))
+                        
+                        found = False
+                        for item in data[category2]:
+                            if item["name"] == search_item:
+
+                                found = True
+                                break
+                        if found:
+                            new_name = input("Enter new item name: ")
+                            new_price = int(input("enter new item price: "))
+                                
+                            item["name"] = new_name
+                            item["price"] = new_price
+
+                            with open(path, "w") as file:
+                                json.dump(data, file, indent=4)
+                            print("Item update successfully!")
+                            continue
+
+                        if not found:
+                            print("invalid item name!!")
+                            continue
+
+
+                    elif choice == 3:
+
+                        print(f"\n  -------- {category3.upper()} ITEMS --------")
+                        print(f"|{'-'*31}|")
+                        for item in data[category3]:
+                            print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
+                        print(f"|{'-'*31}|\n")
+
+                        search_item = (input("please enter item name who you want to update: "))
+                        
+                        found = False
+                        for item in data[category3]:
+                            if item["name"] == search_item:
+
+                                found = True
+                                break
+                        if found:
+                            new_name = input("Enter new item name: ")
+                            new_price = int(input("enter new item price: "))
+                                
+                            item["name"] = new_name
+                            item["price"] = new_price
+
+                            with open(path, "w") as file:
+                                json.dump(data, file, indent=4)
+                            print("Item update successfully!")
+                            continue
+
+                        if not found:
+                            print("invalid item name!!")
+                            continue
+                        
+
+                    elif choice == 4:
+
+                        print(f"\n  -------- {category4.upper()} ITEMS --------")
+                        print(f"|{'-'*31}|")
+                        for item in data[category4]:
+                            print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
+                        print(f"|{'-'*31}|\n")
+
+                        search_item = (input("please enter item name who you want to update: "))
+                        
+                        found = False
+                        for item in data[category4]:
+                            if item["name"] == search_item:
+
+                                found = True
+                                break
+                        if found:
+                            new_name = input("Enter new item name: ")
+                            new_price = int(input("enter new item price: "))
+                                
+                            item["name"] = new_name
+                            item["price"] = new_price
+
+                            with open(path, "w") as file:
+                                json.dump(data, file, indent=4)
+                            print("Item update successfully!")
+                            continue
+
+                        if not found:
+                            print("invalid item name!!")
+                            continue
+                
+                    elif choice == 5:
+                        break
+
+                    else:
+                        print("invalid choice!!")
+                else:
+                    print("enter only digit!!")
+    
+
+        except Exception as e:
+            print("Error:", e)
+
+
+
+
+

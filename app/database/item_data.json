@@ -1,0 +1,507 @@
+{
+    "morning": [
+        {
+            "id": "01",
+            "name": "Tea ",
+            "price1": 20,
+            "price2":10,
+            "vegetarian": "True"
+        },
+        {
+            "id": "02",
+            "name": "Coffee",
+            "price1": 50,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "03",
+            "name": "Milk",
+            "price1": 70,
+            "price2":35,
+            "vegetarian": "True"
+        },
+        {
+            "id": "04",
+            "name": "Pizza",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "True"
+        },
+        {
+            "id": "05",
+            "name": "Mazza",
+            "price1": 90,
+            "price2":45,
+            "vegetarian": "True"
+        },
+        {
+            "id": "06",
+            "name": "Lassi",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        },
+        {
+            "id": "07",
+            "name": "Sprite",
+            "price1": 90,
+            "price2":45,
+            "vegetarian": "True"
+        },
+        {
+            "id": "08",
+            "name": "Sting",
+            "price1": 70,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "10",
+            "name": "Burger",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "11",
+            "name": "Eggs",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "False"
+        },
+        {
+            "id": "12",
+            "name": "Momos",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "13",
+            "name": "Pasta",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "14",
+            "name": "Salad",
+            "price1": 30,
+            "price2":15,
+            "vegetarian": "True"
+        },
+        {
+            "id": "15",
+            "name": "Cake",
+            "price1":400,
+            "price2": 200,
+            "vegetarian": "False"
+        },
+        {
+            "id": "16",
+            "name": "Soup",
+            "price1": 20,
+            "price2":10,
+            "vegetarian": "True"
+        },
+        {
+            "id": "17",
+            "name": "Curry",
+            "price1": 50,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "18",
+            "name": "Cheese",
+            "price1": 240,
+            "price2":120,
+            "vegetarian": "True"
+        },
+        {
+            "id": "19",
+            "name": "Rice",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "20",
+            "name": "Honey",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        }
+    ],
+    "noon": [
+        {
+            "id": "21",
+            "name": "Hot Sauce",
+            "price1": 40,
+            "price2":20,
+            "vegetarian": "True"
+        },
+        {
+            "id": "22",
+            "name": "Chicken Curry",
+            "price1": 260,
+            "price2":140,
+            "vegetarian": "False"
+        },
+        {
+            "id": "23",
+            "name": "Fish Tikka",
+            "price1": 250,
+            "price2":130,
+            "vegetarian": "False"
+        },
+        {
+            "id": "24",
+            "name": "Chicken Kabab",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "False"
+        },
+        {
+            "id": "25",
+            "name": "Chicken Fry",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "False"
+        },
+        {
+            "id": "26",
+            "name": "PaneerBiryani",
+            "price1": 260,
+            "price2":140,
+            "vegetarian": "True"
+        },
+        {
+            "id": "27",
+            "name": "Veg Platter",
+            "price1": 220,
+            "price2":120,
+            "vegetarian": "True"
+        },
+        {
+            "id": "28",
+            "name": "Ice Creame",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "true"
+        },
+        {
+            "id": "29",
+            "name": "Sweet Lassi",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "30",
+            "name": "Gulab Jamoon",
+            "price1":210,
+            "price2": 120,
+            "vegetarian": "True"
+        },
+        {
+            "id": "31",
+            "name": "MuttonBiryani",
+            "price1": 280,
+            "price2":140,
+            "vegetarian": "False"
+        },
+        {
+            "id": "32",
+            "name": "Coca Cola",
+            "price1": 90,
+            "price2":45,
+            "vegetarian": "True"
+        },
+        {
+            "id": "33",
+            "name": "Veg Pulav",
+            "price1": 120,
+            "price2":60,
+            "vegetarian": "True"
+        },
+        {
+            "id": "34",
+            "name": "Noodles",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "35",
+            "name": "Omelets",
+            "price1": 40,
+            "price2":20,
+            "vegetarian": "False"
+        },
+        {
+            "id": "36",
+            "name": "Popcorn",
+            "price1": 40,
+            "price2":20,
+            "vegetarian": "True"
+        },
+        {
+            "id": "37",
+            "name": "Fried Checken",
+            "price1": 240,
+            "price2":120,
+            "vegetarian": "False"
+        },
+        {
+            "id": "38",
+            "name": "Paato Chips",
+            "price1": 50,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "39",
+            "name": "French fries",
+            "price1": 140,
+            "price2":70,
+            "vegetarian": "True"
+        },
+        {
+            "id": "40",
+            "name": "Chocolate",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        }
+    ],
+    "evening": [
+        {
+            "id": "41",
+            "name": "Sandwich",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "42",
+            "name": "Cabbage Rolls",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "43",
+            "name": "Hamburger",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        },
+        {
+            "id": "44",
+            "name": "Onion Rings",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "45",
+            "name": "French Toast",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "46",
+            "name": "Cold Drink",
+            "price1": 70,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "47",
+            "name": "Nuggets",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "48",
+            "name": "Egg Roll",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "False"
+        },
+        {
+            "id": "49",
+            "name": "Sausage",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        },
+        {
+            "id": "50",
+            "name": "Pani puri",
+            "price1": 70,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "51",
+            "name": "Paneer Chilly",
+            "price1": 320,
+            "price2":160,
+            "vegetarian": "True"
+        },
+        {
+            "id": "52",
+            "name": "Pancakes",
+            "price1": 300,
+            "price2":150,
+            "vegetarian": "True"
+        },
+        {
+            "id": "53",
+            "name": "Horlicks",
+            "price1": 400,
+            "price2":200,
+            "vegetarian": "True"
+        },
+        {
+            "id": "54",
+            "name": "Chicken Ball",
+            "price1": 250,
+            "price2":130,
+            "vegetarian": "False"
+        },
+        {
+            "id": "55",
+            "name": "ChickenNugget",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "False"
+        },
+        {
+            "id": "56",
+            "name": "Boarn Bita",
+            "price1": 400,
+            "price2":200,
+            "vegetarian": "True"
+        },
+        {
+            "id": "57",
+            "name": "Biscuits",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "58",
+            "name": "Lemon Water",
+            "price1": 40,
+            "price2":20,
+            "vegetarian": "True"
+        },
+        {
+            "id": "59",
+            "name": "Micture",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        },
+        {
+            "id": "60",
+            "name": "Corn Crispy",
+            "price1": 180,
+            "price2":90,
+            "vegetarian": "True"
+        }
+    ],
+    "night": [
+        {
+            "id": "61",
+            "name": "Donuts",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "62",
+            "name": "Butter",
+            "price1":140,
+            "price2": 70,
+            "vegetarian": "True"
+        },
+        {
+            "id": "63",
+            "name": "Pasta",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "64",
+            "name": "Kabab",
+            "price1": 80,
+            "price2":40,
+            "vegetarian": "True"
+        },
+        {
+            "id": "65",
+            "name": "Snacks",
+            "price1": 200,
+            "price2":100,
+            "vegetarian": "False"
+        },
+        {
+            "id": "66",
+            "name": "Meat",
+            "price1": 220,
+            "price2":110,
+            "vegetarian": "False"
+        },
+        {
+            "id": "67",
+            "name": "Chips",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "68",
+            "name": "Muffin",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "True"
+        },
+        {
+            "id": "69",
+            "name": "Samosa",
+            "price1": 50,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "70",
+            "name": "Ghee",
+            "price1": 100,
+            "price2":50,
+            "vegetarian": "False"
+        },
+        {
+            "id": "71",
+            "name": "Maigi",
+            "price1": 60,
+            "price2":30,
+            "vegetarian": "True"
+        },
+        {
+            "id": "72",
+            "name": "Kebab",
+            "price1": 40,
+            "price2":20,
+            "vegetarian": "True"
+        }
+    ]
+}

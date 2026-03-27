@@ -154,4 +154,3 @@ class people:
             print(f"error: {e}")
 
 
-
