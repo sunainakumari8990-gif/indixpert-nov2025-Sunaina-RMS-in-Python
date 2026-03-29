@@ -16,29 +16,29 @@ class Delete:
                     except:
                         data = {
                             "morning": [],
-                            "noon": [],
-                            "evening": [],
-                            "night": []
+                            "lunch": [],
+                            "supper": [],
+                            "dinner": []
                         }
             else:
                 data = {
                     "morning": [],
-                    "noon": [],
-                    "evening": [],
-                    "night": []
+                    "lunch": [],
+                    "supper": [],
+                    "dinner": []
                 }
 
 
             print(f"+{'-'*31}+")
             print(f"|\t  DELETE MENU\t\t|")
             print(f"|{'-'*31}|")
-            print(f"| 1. morning item               |")
-            print(f"| 2. noon item                  |")
-            print(f"| 3. evening item               |")
-            print(f"| 4. night item                 |")
+            print(f"| 1. morning item                |")
+            print(f"| 2. lunch item                  |")
+            print(f"| 3. supper item                 |")
+            print(f"| 4. dinner item                 |")
             print(f"+{'-'*31}+\n")
 
-            category = input("Enter category (morning/noon/evening/night): ").lower()
+            category = input("Enter category (morning/lunch/supper/dinner): ").lower()
             if category not in data:
                 print("Invalid category!")
                 return

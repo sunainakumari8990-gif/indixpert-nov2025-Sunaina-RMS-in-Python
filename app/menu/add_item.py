@@ -22,16 +22,16 @@ class AddItem:
                 except:
                     data = {
                         "morning": [],
-                        "noon": [],
-                        "evening": [],
-                        "night": []
+                        "lunch": [],
+                        "supper": [],
+                        "dinner": []
                     }
         else:
             data = {
                 "morning": [],
-                "noon": [],
-                "evening": [],
-                "night": []
+                "lunch": [],
+                "supper": [],
+                "dinner": []
             }
 
         data[item_type].append(item)
@@ -61,13 +61,13 @@ class Manage:
                     self.obj.add_item("morning")
 
                 elif choice == 2:
-                    self.obj.add_item("noon")
+                    self.obj.add_item("lunch")
 
                 elif choice == 3:
-                    self.obj.add_item("evening")
+                    self.obj.add_item("supper")
                     
                 elif choice == 4:
-                    self.obj.add_item("night")
+                    self.obj.add_item("dinner")
         
                 elif choice == 5:
                     break

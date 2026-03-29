@@ -134,7 +134,7 @@
             "vegetarian": "True"
         }
     ],
-    "noon": [
+    "lunch": [
         {
             "id": "21",
             "name": "Hot Sauce",
@@ -276,7 +276,7 @@
             "vegetarian": "True"
         }
     ],
-    "evening": [
+    "supper": [
         {
             "id": "41",
             "name": "Sandwich",
@@ -418,7 +418,7 @@
             "vegetarian": "True"
         }
     ],
-    "night": [
+    "dinner": [
         {
             "id": "61",
             "name": "Donuts",

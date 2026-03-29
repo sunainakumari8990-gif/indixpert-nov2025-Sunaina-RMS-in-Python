@@ -15,29 +15,29 @@ class Update:
                     except:
                         data = {
                             "morning": [],
-                            "noon": [],
-                            "evening": [],
-                            "night": []
+                            "lunch": [],
+                            "supper": [],
+                            "dinner": []
                         }
             else:
                 data = {
                     "morning": [],
-                    "noon": [],
-                    "evening": [],
-                    "night": []
+                    "lunch": [],
+                    "supper": [],
+                    "dinner": []
                 }
 
             category1 = "morning"
-            category2 = "noon"
-            category3 = "evening"
-            category4 = "night"
+            category2 = "lunch"
+            category3 = "supper"
+            category4 = "dinner"
 
             while True:
                 print(f"\n|{'-'*10}UPDATE MENU{'-'*10}|")
                 print(f"| 1. morning item               |")
-                print(f"| 2. noon item                  |")
-                print(f"| 3. evening item               |")
-                print(f"| 4. night item                 |")
+                print(f"| 2. lunch item                 |")
+                print(f"| 3. supper item                |")
+                print(f"| 4. dinner item                |")
                 print(f"| 5. Back                       |")
                 print(f"|{'-'*31}|\n")
 
@@ -64,12 +64,12 @@ class Update:
                             new_name = input("Enter new item name: ")
                             new_price1 = int(input("enter new item full price: "))
                             new_price2 = int(input("enter new item half price: "))
-                            chenge_veg = input("veg (True\False): ")
+                            change_veg = input("veg (True\False): ")
                                 
                             item["name"] = new_name
                             item["price1"] = new_price1
                             item["price2"] = new_price2
-                            item["vagetarian"] = chenge_veg
+                            item["vagetarian"] = change_veg
 
                             with open(path, "w") as file:
                                 json.dump(data, file, indent=4)
@@ -89,20 +89,24 @@ class Update:
                             print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
                         print(f"|{'-'*31}|\n")
 
-                        search_item = (input("please enter item name who you want to update: "))
+                        search_id = (input("please enter item id who you want to update: "))
                         
                         found = False
                         for item in data[category2]:
-                            if item["name"] == search_item:
+                            if item["id"] == search_id:
 
                                 found = True
                                 break
                         if found:
                             new_name = input("Enter new item name: ")
-                            new_price = int(input("enter new item price: "))
+                            new_price1 = int(input("enter new item full price: "))
+                            new_price2 = int(input("enter newitem half price: "))
+                            change_veg = ("veg (True\False): ")
                                 
                             item["name"] = new_name
-                            item["price"] = new_price
+                            item["price1"] = new_price1
+                            item["price2"] = new_price2
+                            item["vegetarion"] = change_veg
 
                             with open(path, "w") as file:
                                 json.dump(data, file, indent=4)
@@ -122,20 +126,24 @@ class Update:
                             print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
                         print(f"|{'-'*31}|\n")
 
-                        search_item = (input("please enter item name who you want to update: "))
+                        search_id = (input("please enter item id who you want to update: "))
                         
                         found = False
                         for item in data[category3]:
-                            if item["name"] == search_item:
+                            if item["id"] == search_id:
 
                                 found = True
                                 break
                         if found:
                             new_name = input("Enter new item name: ")
-                            new_price = int(input("enter new item price: "))
+                            new_price1 = int(input("enter new item full price1: "))
+                            new_price2 = int(input("enter new item half price2: "))
+                            change_veg = input("veg (True\False): ")
                                 
                             item["name"] = new_name
-                            item["price"] = new_price
+                            item["price1"] = new_price1
+                            item["price2"] = new_price2
+                            item["vegetarion"] = change_veg
 
                             with open(path, "w") as file:
                                 json.dump(data, file, indent=4)
@@ -155,20 +163,24 @@ class Update:
                             print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
                         print(f"|{'-'*31}|\n")
 
-                        search_item = (input("please enter item name who you want to update: "))
+                        search_id = (input("please enter item id who you want to update: "))
                         
                         found = False
                         for item in data[category4]:
-                            if item["name"] == search_item:
+                            if item["id"] == search_id:
 
                                 found = True
                                 break
                         if found:
                             new_name = input("Enter new item name: ")
-                            new_price = int(input("enter new item price: "))
+                            new_price1 = int(input("enter new item full price: "))
+                            new_price2 = int(input("enter new item half price: "))
+                            change_veg = input("veg (True\False): ")
                                 
                             item["name"] = new_name
-                            item["price"] = new_price
+                            item["price1"] = new_price1
+                            item["price2"] = new_price2
+                            item["vegetarion"] = change_veg
 
                             with open(path, "w") as file:
                                 json.dump(data, file, indent=4)

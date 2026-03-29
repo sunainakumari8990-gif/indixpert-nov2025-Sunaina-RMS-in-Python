@@ -38,7 +38,7 @@ class people:
                 # NAME
                 while True:
                     try:
-                        data["name"] = input("ENTER FULL NAME: ").title()
+                        data["name"] = input("ENTER FULL NAME: ").strip().title()
                         if data["name"].replace(" ", "").isalpha() and 5 <= len(data["name"]) <= 30:
                             break
                         else:

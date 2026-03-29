@@ -14,9 +14,9 @@ class View:
                 data = json.load(file)
 
             category1 = "morning"
-            category2 = "noon"
-            category3 = "evening"
-            category4 = "night"
+            category2 = "lunch"
+            category3 = "supper"
+            category4 = "dinner"
 
             print(f"\n          -------- {category1.upper()} ITEMS --------\n")
             print(f"+{'-'*63}+")

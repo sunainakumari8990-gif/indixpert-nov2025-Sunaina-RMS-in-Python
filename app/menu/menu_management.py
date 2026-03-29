@@ -18,7 +18,7 @@ class Item:
                 print("5. EXIT")
                 print("--------------------\n")
 
-                option = input("please select option->>")
+                option = input("please select option->> ")
                 if option.isdigit():
                     option = int(option)
                     if option == 1:
