@@ -45,4 +45,3 @@ class usermanage:
 manageuser=usermanage()
 manageuser.usermenu()
 
-        

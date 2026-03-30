@@ -1,0 +1,33 @@
+[
+    {
+        "id": "838483",
+        "created_date": "30/03/2026",
+        "name": "Sunaina Kumari",
+        "mobile": "1234567890",
+        "booking_date": "30-03-2026",
+        "time_slot": "08:00-11:00",
+        "table": 101,
+        "seat": 2,
+        "total_seat": 4,
+        "price_per_seat": 500,
+        "subtotal": 1000,
+        "gst": 180.0,
+        "total_bill": 1180.0
+    },
+    {
+        "current_date": "30/03/26",
+        "id": "843213",
+        "name": "Sunaina Kuamri",
+        "mobile": "1234567890",
+        "address": "Delhi",
+        "booking_date": "30-03-2026",
+        "time_slot": "08:00 AM - 11:00 AM",
+        "table": 103,
+        "seat": 0,
+        "total_seat": 2,
+        "price_per_seat": 60,
+        "subtotal": 0,
+        "gst": 0.0,
+        "total_bill": 0.0
+    }
+]

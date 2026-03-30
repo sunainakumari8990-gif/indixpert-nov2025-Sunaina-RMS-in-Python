@@ -1,0 +1,34 @@
+{
+    "table":[
+        {
+            "table_no":101,
+            "totaol_seat":4,
+            "available_seat":4,
+            "fare":50
+        },
+        {
+            "table_no":102,
+            "totaol_seat":6,
+            "available_seat":6,
+            "fare":40
+        },
+        {
+            "table_no":103,
+            "totaol_seat":4,
+            "available_seat":4,
+            "fare":50
+        },
+                {
+            "table_no":104,
+            "totaol_seat":8,
+            "available_seat":8,
+            "fare":40
+        },
+        {
+            "table_no":101,
+            "totaol_seat":4,
+            "available_seat":4,
+            "fare":50
+        }
+    ]
+}
