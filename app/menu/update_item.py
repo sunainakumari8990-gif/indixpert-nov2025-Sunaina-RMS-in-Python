@@ -51,13 +51,11 @@ class Update:
                         for item in data[category1]:
                             print(f"| id: {item['id']}\t| Name: {item['name']}\t|")
                         print(f"|{'-'*31}|\n")
-
                         search_id = (input("please enter item id who you want to update: "))
                         
                         found = False
                         for item in data[category1]:
                             if item["id"] == search_id:
-
                                 found = True
                                 break
                         if found:

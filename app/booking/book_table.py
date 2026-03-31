@@ -203,41 +203,38 @@ class ReserveTable:
         --------------------------
         """)
 
+class ManageTable:
+    def table_menu(self):
+        obj = ReserveTable()
+        while True:
+            print(f"+{'-'*25}+")
+            print(f"|       TABLE MENU        |")
+            print(f"+{'-'*25}+")
+            print(f"| 1. Book Table           |")
+            print(f"| 2. Cancel Booking       |")
+            print(f"| 3. View Booking         |")
+            print(f"| 4. Exit                 |")
+            print(f"+{'-'*25}+")
 
-obj = ReserveTable()
+            choice = input("\nEnter choice: ")
+            if choice.isdigit():
+                choice = int(choice)
 
-while True:
-    print("""
-    1. Book Table
-    2. Cancel Booking
-    3. View Booking
-    4. Exit
-    """)
-
-    choice = input("Enter choice: ")
-    if choice.isdigit():
-        choice = int(choice)
-
-        if choice == 1:
-            obj.booking_info()
-        elif choice == 2:
-            obj.cancel_booking()
-        elif choice == 3:
-            obj.view()
-        elif choice == 4:
-            print("Thank you!")
-            break
-        else:
-            print("invalid choice!")
-
-    else:
-        print("enter only digit!!")
-
-
-
-    # 
-
-
-
+                if choice == 1:
+                    obj.booking_info()
+                elif choice == 2:
+                    obj.cancel_booking()
+                elif choice == 3:
+                    obj.view()
+                elif choice == 4:
+                    print("Thank you!")
+                    break
+                else:
+                    print("invalid choice!")
+            else:
+                print("enter only digit!!")
+        
+table_obj = ManageTable()
+table_obj.table_menu()
 
 

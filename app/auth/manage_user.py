@@ -7,14 +7,14 @@ class usermanage:
         try:
             while True:
 
-                print(f"|{'-'*40}|")
+                print(f"+{'-'*40}+")
                 print(f"|       SUPER FAMOUS RESTAURENT          |")
-                print(f"|{'-'*40}|\n")
-                print(f"|{'-'*30}|")
+                print(f"+{'-'*40}+\n")
+                print(f"+{'-'*30}+")
                 print(f"| 1. LOGIN                     |")
                 print(f"| 2. SIGN UP                   |")
                 print(f"| 3. EXIT                      |")
-                print(f"|{'-'*30}|")
+                print(f"+{'-'*30}+")
 
                 option=(input("please select your choice->"))
                 if option.isdigit():
